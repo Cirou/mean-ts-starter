@@ -31,6 +31,7 @@ Navigate to `http://localhost:3000`
 I created this project for personal needs to have a mean starter project based on typescript.
 
 A majority of this quick start's content was inspired by:
+
 The Sahat hackaton starter: https://github.com/sahat/hackathon-starter
 
 The Microsoft typescript node starter: https://github.com/Microsoft/TypeScript-Node-Starter
