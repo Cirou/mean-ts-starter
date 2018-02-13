@@ -20,6 +20,8 @@ dotenv.config({ path: "dev.env.example" });
 
 // Controllers (route handlers)
 import * as apiController from "./controllers/api";
+import * as userController from "./controllers/user";
+import * as contactController from "./controllers/contact";
 
 // Create Express server
 const app = express();
@@ -82,6 +84,9 @@ app.use(express.static(path.join(__dirname, "public"), { maxAge: 31557600000 }))
  * API routes.
  */
 app.get("/api", apiController.getApi);
+app.get("/user", userController.getUser);
+app.get("/contact", contactController.getContact);
+app.post("/contact", contactController.postContact);
 
 /**
  * Primary app routes for Angular will catch all route
