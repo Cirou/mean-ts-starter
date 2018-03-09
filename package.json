@@ -67,7 +67,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "1.4.3",
+    "@angular/cli": "1.7.3",
     "@angular/compiler-cli": "^4.4.6",
     "@angular/language-service": "^4.2.4",
     "@types/async": "^2.0.45",
@@ -111,6 +111,7 @@
     "nodemon": "^1.13.0",
     "protractor": "~5.1.2",
     "shelljs": "^0.7.7",
+    "ssri": "5.2.2",
     "supertest": "^3.0.0",
     "ts-jest": "^21.2.4",
     "ts-node": "^4.0.2",
