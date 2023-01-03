@@ -67,7 +67,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "^1.7.4",
+    "@angular/cli": "^15.0.4",
     "@angular/compiler-cli": "^5.2.11",
     "@angular/language-service": "^5.2.11",
     "@types/async": "^2.4.2",
@@ -113,7 +113,7 @@
     "shelljs": "^0.7.7",
     "ssri": "5.2.2",
     "supertest": "^3.4.2",
-    "ts-jest": "^21.2.4",
+    "ts-jest": "^29.0.3",
     "ts-node": "^4.1.0",
     "tslint": "^5.17.0",
     "typescript": "~2.5.3"
